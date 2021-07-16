@@ -1,0 +1,166 @@
+/* Very Smol Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #F1FAEE;
+  }
+  
+  /* Layout */
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+    color: #1D3557;
+    overflow-x: hidden;
+  }
+  
+  body > * {
+    --layout-spacing: max(8vh, 3rem);
+    --max-width: 80ch;
+    width: min(100%, var(--max-width));
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  nav ul {
+    font-size: 1.2em;
+    font-weight: 300;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  
+  nav ul li {
+    padding: 0.5rem 1rem;
+    color: #E63946;
+  }
+  
+  nav [aria-current="page"] {
+    font-weight: bold;
+  }
+  
+  header,
+  main,
+  main > * + * {
+    margin-top: var(--layout-spacing);
+  }
+  
+  body > footer {
+    margin-top: auto;
+    padding-top: var(--layout-spacing);
+  }
+  
+  body > footer div {
+    font-family: "Nunito", sans-serif;
+    padding: 0.5em;
+  }
+  
+  article * + * {
+    margin-top: 1em;
+  }
+
+  header {
+    height: 10vh;
+  }
+
+  /* Typography */
+  :is(h1, h2, h3) {
+    line-height: 1.2;
+  }
+
+  
+  h1 {
+    font-size: 2em;
+    font-weight: 900;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+  
+  :is(h1, h2) {
+    max-width: 50ch;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  a {
+    color: #E63946;
+    text-decoration: none;
+  }
+  
+  a:focus {
+    outline: 1px solid currentColor;
+    outline-offset: 0.2em;
+  }
+  
+  /* Media */
+  
+  article img {
+    display: block;
+    width: 100%;
+    min-height: 20rem;
+    max-height: 40vh;
+    object-fit: cover;
+    margin: 2rem auto;
+  }
+  
+  @supports (aspect-ratio: 1) {
+    article img {
+      max-height: unset;
+      aspect-ratio: 3/2;
+    }
+  }
+  
+  /* Supporting Content */
+  
+  code:not([class*="language"]) {
+    font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+    font-size: 1.75ex;
+    color: #E63946;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-right: 0.15em;
+    padding-left: 0.15em;
+  }
+  
+  blockquote {
+    margin: 2rem 0;
+    padding: 0.5em 1rem;
+    border-left: 3px solid #457B9D;
+    background-color: #A8DADC;
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+
+  
+  section#cta {
+    padding-top: 5em;
+  }
+  
+  button {
+    border: 1px solid #E63946;
+    padding: 0.5em;
+    /* margin-right: 1em; */
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: "Nunito", sans-serif;
+    cursor: pointer;
+  }
+  
+  button.secondary {
+      color: #E63946;
+      background-color: white;
+  }
+  
+  button.primary {
+      background-color: #E63946;
+      color: white;
+  }
+  
