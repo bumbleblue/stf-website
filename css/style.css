@@ -67,10 +67,18 @@
   }
 
   header {
-    height: 10vh;
+    height: 8em;
   }
 
-  /* Typography */
+  #language-switch {
+    margin-bottom: 5em;
+  }
+
+  #selected {
+    font-weight: 900;
+  }
+
+  /* Typography */  
   :is(h1, h2, h3) {
     line-height: 1.2;
   }
@@ -96,11 +104,12 @@
     text-decoration: none;
   }
   
-  a:focus {
-    outline: 1px solid currentColor;
-    outline-offset: 0.2em;
+
+  a:hover { 
+    font-weight: 900;
   }
-  
+
+
   /* Media */
   
   article img {
@@ -122,10 +131,10 @@
   /* Supporting Content */
   
   code:not([class*="language"]) {
-    font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+    font-family: Menlo, Ubuntu Mono, monospace;
     font-size: 1.75ex;
     color: #E63946;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #1D3557;
     padding-right: 0.15em;
     padding-left: 0.15em;
   }
@@ -135,12 +144,11 @@
     padding: 0.5em 1rem;
     border-left: 3px solid #457B9D;
     background-color: #A8DADC;
-    border-radius: 0 0.25rem 0.25rem 0;
   }
 
   
   section#cta {
-    padding-top: 5em;
+    padding-top: 1em;
   }
   
   button {
