@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    background-color: #F1FAEE;
+    background-color: #F5F5F5;
   }
   
   /* Layout */
@@ -12,15 +12,15 @@
     flex-direction: column;
     min-height: 100vh;
     padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
-    font-family: "Nunito", sans-serif;
+    font-family: "Vollkorn", serif;
     line-height: 1.5;
-    color: #1D3557;
+    color: #0A0A0A;
     overflow-x: hidden;
   }
   
   body > * {
     --layout-spacing: max(8vh, 3rem);
-    --max-width: 80ch;
+    --max-width: 60ch;
     width: min(100%, var(--max-width));
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +28,7 @@
   
   nav ul {
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 400;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
   
   nav ul li {
     padding: 0.5rem 1rem;
-    color: #E63946;
+    color: #0A0A0A;
   }
   
   nav [aria-current="page"] {
@@ -58,7 +58,7 @@
   }
   
   body > footer div {
-    font-family: "Nunito", sans-serif;
+    font-family: "Vollkorn", serif;
     padding: 0.5em;
   }
   
@@ -86,21 +86,21 @@
   
   h1 {
     font-size: 2em;
-    font-weight: 900;
+    font-weight: 700;
   }
   
   h2 {
     font-size: 1.2em;
-    font-weight: 900;
+    font-weight: 700;
   }
   
   :is(h1, h2) {
     max-width: 50ch;
-    font-family: "Nunito", sans-serif;
+    font-family: "Vollkorn", serif;
   }
   
   a {
-    color: #E63946;
+    color: #0A0A0A;
     text-decoration: none;
   }
   
@@ -133,8 +133,8 @@
   code:not([class*="language"]) {
     font-family: Menlo, Ubuntu Mono, monospace;
     font-size: 1.75ex;
-    color: #E63946;
-    background-color: #1D3557;
+    color: #CCCCCC;
+    background-color: #0A0A0A;
     padding-right: 0.15em;
     padding-left: 0.15em;
   }
@@ -142,8 +142,8 @@
   blockquote {
     margin: 2rem 0;
     padding: 0.5em 1rem;
-    border-left: 3px solid #457B9D;
-    background-color: #A8DADC;
+    border-left: 3px solid #0A0A0A;
+    background-color: #CCCCCC;
   }
 
   
@@ -152,23 +152,23 @@
   }
   
   button {
-    border: 1px solid #E63946;
+    border: 1px solid #0A0A0A;
     padding: 0.5em;
     /* margin-right: 1em; */
     border-radius: 4px;
     font-size: 1em;
-    font-weight: 300;
-    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-family: "Vollkorn", sans-serif;
     cursor: pointer;
   }
   
   button.secondary {
-      color: #E63946;
+      color: #0A0A0A;
       background-color: white;
   }
   
   button.primary {
-      background-color: #E63946;
+      background-color: #0A0A0A;
       color: white;
   }
   
