@@ -62,9 +62,10 @@
     padding: 0.5em;
   }
   
-  #logo {
+  footer * {
     background-color: #FFF;
     padding: 0.5em;
+    vertical-align: top;
   }
   article * + * {
     margin-top: 1em;
