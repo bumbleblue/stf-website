@@ -57,16 +57,12 @@
     padding-top: var(--layout-spacing);
   }
   
-  body > footer div {
-    font-family: "Vollkorn", serif;
-    padding: 0.5em;
-  }
-  
   footer * {
     background-color: #FFF;
     padding: 0.5em;
     vertical-align: top;
   }
+
   article * + * {
     margin-top: 1em;
   }
