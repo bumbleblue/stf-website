@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
         data: {
           baseUrl: 'words.json',
           words: [],
-          current_word: 'Digital Infrastructure',
-          next_word: 'Digital Infrastructure',
-          display_text: 'Digital Infrastructure',
+          current_word: 'Foundational Tech',
+          next_word: 'Foundational Tech',
+          display_text: 'Foundational Tech',
           counter: 1,
           counter_stay: 20,
           scramble_counter: 0,
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
           }).then((data) => {
             this.words = data.reverse();
             this.newWord();
-            this.display_text = 'Digital Infrastructure';
+            this.display_text = 'Foundational Tech';
             this.onCaroussel();
             setInterval(this.onCaroussel, 100);
           })
