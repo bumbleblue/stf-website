@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
+  padding: 1vh clamp(1rem, 5vw, 3rem) 0;
   font-family: "Barlow Semi Condensed", serif;
   line-height: 1.5;
   color: #000;
@@ -58,15 +58,49 @@ main > * + * {
   margin-top: var(--layout-spacing);
 }
 
-body > footer {
-  margin-top: auto;
-  padding-top: var(--layout-spacing);
+footer {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 3rem auto 0 auto;
+  text-align: center;
 }
 
-footer * {
-  background-color: #fff;
-  padding: 0.5em;
-  vertical-align: top;
+footer > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: top;
+  gap: 3rem;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer div span {
+  background-color: #000;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  font-weight: 500;
+  font-size: 0.7rem;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+}
+
+footer img {
+  max-width: 100%;
+}
+
+footer .imprint {
+  font-weight: 500;
+  font-size: 0.7rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.135em;
+}
+
+footer .imprint:hover {
+  text-decoration: none;
 }
 
 article * + * {
@@ -189,6 +223,10 @@ blockquote p {
   background: #fff;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+#cta {
+  text-align: center;
 }
 
 #cta a {
