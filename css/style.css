@@ -55,7 +55,7 @@ nav [aria-current="page"] {
 header,
 main,
 main > * + * {
-  margin-top: var(--layout-spacing);
+  margin-top: 2rem;
 }
 
 footer {
