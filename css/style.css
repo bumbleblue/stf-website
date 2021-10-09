@@ -8,6 +8,72 @@
   font-size: 20px;
 }
 
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/barlow-semi-condensed/barlow-semi-condensed-v7-latin-regular.woff2")
+      format("woff2"),
+    url("../fonts/barlow-semi-condensed/barlow-semi-condensed-v7-latin-regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/barlow-semi-condensed/barlow-semi-condensed-v7-latin-500.woff2")
+      format("woff2"),
+    url("../fonts/barlow-semi-condensed/barlow-semi-condensed-v7-latin-500.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("../fonts/barlow-semi-condensed/barlow-semi-condensed-v7-latin-600.woff2")
+      format("woff2"),
+    url("../fonts/barlow-semi-condensed/barlow-semi-condensed-v7-latin-600.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/barlow-semi-condensed/barlow-semi-condensed-v7-latin-700.woff2")
+      format("woff2"),
+    url("../fonts/barlow-semi-condensed/barlow-semi-condensed-v7-latin-700.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("../fonts/barlow-condensed/barlow-condensed-v5-latin-600.woff2")
+      format("woff2"),
+    url("../fonts/barlow-condensed/barlow-condensed-v5-latin-600.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/barlow-condensed/barlow-condensed-v5-latin-700.woff2")
+      format("woff2"),
+    url("../fonts/barlow-condensed/barlow-condensed-v5-latin-700.woff")
+      format("woff");
+}
+
 /* Layout */
 
 body {
