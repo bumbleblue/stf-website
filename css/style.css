@@ -181,12 +181,12 @@ article * + * {
   font-weight: 600;
 }
 
-#language-switch span {
+#language-switch a {
   background-color: #f1f4ff;
   color: #000;
 }
 
-#language-switch a {
+#language-switch span {
   background-color: #3e36a5;
   color: #fff;
 }
