@@ -228,7 +228,7 @@ a:hover {
 
 header h1 {
   display: inline;
-  padding: 0.5rem 0.8rem;
+  /* padding: 0.5rem 0.8rem; */
   color: #fff;
   background-color: #3e36a5;
   text-transform: uppercase;
