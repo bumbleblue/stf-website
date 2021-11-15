@@ -199,7 +199,8 @@ article * + * {
 
 h1 {
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -210,7 +211,7 @@ h2 {
 
 h3 {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 :is(h1, h2) {
@@ -276,7 +277,7 @@ blockquote:hover {
 }
 
 blockquote h3 {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.2rem;
   color: #fff;
   background: #3e36a5;
   text-transform: uppercase;
@@ -284,10 +285,10 @@ blockquote h3 {
 
 blockquote p {
   margin-top: 0;
-  padding: 1.8rem 1.6rem;
+  padding: 1.4rem 1.2rem;
   color: #000;
   background: #fff;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
